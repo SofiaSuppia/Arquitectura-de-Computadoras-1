@@ -1,0 +1,115 @@
+$date
+	Fri Aug 22 00:50:01 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_register_bank $end
+$var wire 8 ! read_data [7:0] $end
+$var reg 1 " clk $end
+$var reg 3 # read_addr [2:0] $end
+$var reg 1 $ we $end
+$var reg 3 % write_addr [2:0] $end
+$var reg 8 & write_data [7:0] $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 3 ' read_addr [2:0] $end
+$var wire 1 $ we $end
+$var wire 3 ( write_addr [2:0] $end
+$var wire 8 ) write_data [7:0] $end
+$var reg 8 * read_data [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx *
+b0 )
+b0 (
+b0 '
+b0 &
+b0 %
+0$
+b0 #
+0"
+bx !
+$end
+#5000
+1"
+#10000
+0"
+b10101010 &
+b10101010 )
+b11 %
+b11 (
+1$
+#15000
+1"
+#20000
+0"
+0$
+#25000
+1"
+#30000
+b10101010 !
+b10101010 *
+0"
+b11 #
+b11 '
+#35000
+1"
+#40000
+0"
+b1010101 &
+b1010101 )
+b101 %
+b101 (
+1$
+#45000
+1"
+#50000
+0"
+0$
+#55000
+1"
+#60000
+b1010101 !
+b1010101 *
+0"
+b101 #
+b101 '
+#65000
+1"
+#70000
+bx !
+bx *
+0"
+b0 #
+b0 '
+#75000
+1"
+#80000
+0"
+b11111111 &
+b11111111 )
+b0 %
+b0 (
+1$
+#85000
+b11111111 !
+b11111111 *
+1"
+#90000
+0"
+0$
+#95000
+1"
+#100000
+0"
+#105000
+1"
+#110000
+0"

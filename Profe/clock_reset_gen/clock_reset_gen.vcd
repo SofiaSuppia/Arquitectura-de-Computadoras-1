@@ -1,0 +1,142 @@
+$date
+	Fri Aug 22 00:44:06 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_clock_reset_gen $end
+$var wire 1 ! sync_reset $end
+$var wire 1 " clk_out $end
+$var reg 1 # async_reset_n $end
+$var reg 1 $ clk_in $end
+$scope module uut $end
+$var wire 1 # async_reset_n $end
+$var wire 1 $ clk_in $end
+$var reg 1 " clk_out $end
+$var reg 4 % counter [3:0] $end
+$var reg 1 ! sync_reset $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 %
+0$
+0#
+0"
+1!
+$end
+#5000
+1$
+#10000
+0$
+#15000
+1$
+#20000
+0$
+1#
+#25000
+b1 %
+1$
+#30000
+0$
+#35000
+b10 %
+1$
+#40000
+0$
+#45000
+b11 %
+1$
+#50000
+0$
+#55000
+b100 %
+1$
+#60000
+0$
+#65000
+b101 %
+1$
+#70000
+0$
+#75000
+b110 %
+1$
+#80000
+0$
+#85000
+b111 %
+1$
+#90000
+0$
+#95000
+b1000 %
+1$
+#100000
+0$
+#105000
+0!
+1"
+b1001 %
+1$
+#110000
+0$
+#115000
+b1010 %
+1$
+#120000
+0$
+#125000
+b1011 %
+1$
+#130000
+0$
+#135000
+b1100 %
+1$
+#140000
+0$
+#145000
+b1101 %
+1$
+#150000
+0$
+#155000
+b1110 %
+1$
+#160000
+0$
+#165000
+b1111 %
+1$
+#170000
+0$
+#175000
+b0 %
+1$
+#180000
+0$
+#185000
+b1 %
+1$
+#190000
+0$
+#195000
+b10 %
+1$
+#200000
+0$
+#205000
+b11 %
+1$
+#210000
+0$
+#215000
+b100 %
+1$
+#220000
+0$

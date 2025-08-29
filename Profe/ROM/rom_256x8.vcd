@@ -1,0 +1,80 @@
+$date
+	Fri Aug 22 00:13:11 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_rom_256x8 $end
+$var wire 8 ! data [7:0] $end
+$var reg 8 " addr [7:0] $end
+$var integer 32 # i [31:0] $end
+$scope module rom_inst $end
+$var wire 8 $ addr [7:0] $end
+$var reg 8 % data [7:0] $end
+$var integer 32 & i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100000000 &
+b10100000 %
+b0 $
+b0 #
+b0 "
+b10100000 !
+$end
+#10000
+b10110001 !
+b10110001 %
+b1 "
+b1 $
+b1 #
+#20000
+b11000010 !
+b11000010 %
+b10 "
+b10 $
+b10 #
+#30000
+b11010011 !
+b11010011 %
+b11 "
+b11 $
+b11 #
+#40000
+b11100100 !
+b11100100 %
+b100 "
+b100 $
+b100 #
+#50000
+b11110101 !
+b11110101 %
+b101 "
+b101 $
+b101 #
+#60000
+b0 !
+b0 %
+b110 "
+b110 $
+b110 #
+#70000
+b111 "
+b111 $
+b111 #
+#80000
+b1000 "
+b1000 $
+b1000 #
+#90000
+b1001 "
+b1001 $
+b1001 #
+#100000
+b1010 #
+#110000
